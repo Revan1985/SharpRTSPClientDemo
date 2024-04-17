@@ -9,8 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FFmpeg.AutoGen" Version="6.1.0" />
-    <PackageReference Include="SharpRTSP" Version="1.2.3" />
+    <PackageReference Include="FFmpeg.AutoGen" Version="6.1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharpRTSP\RTSP\RTSP.csproj" />
   </ItemGroup>
 
 </Project>
